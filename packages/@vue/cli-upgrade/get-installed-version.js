@@ -1,14 +1,14 @@
-const path = require('path')
-const getPackageJson = require('./get-package-json')
+const path = require("path");
+const getPackageJson = require("./get-package-json");
 
-module.exports = function getInstalledVersion (packageName) {
-  // for first level deps, read package.json directly is way faster than `npm list`
+// 获得安装模块的版本信息
+module.exports = function getInstalledVersion(packageName) {
   try {
     const packageJson = getPackageJson(
-      path.resolve(process.cwd(), 'node_modules', packageName)
-    )
-    return packageJson.version
+      path.resolve(process.cwd(), "node_modules", packageName)
+    );
+    return packageJson.version;
   } catch (e) {
-    return 'N/A'
+    return "N/A";
   }
-}
+};

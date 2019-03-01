@@ -1,15 +1,15 @@
 # vue-cli [![Build Status](https://circleci.com/gh/vuejs/vue-cli/tree/dev.svg?style=shield)](https://circleci.com/gh/vuejs/vue-cli/tree/dev) [![Windows Build status](https://ci.appveyor.com/api/projects/status/rkpafdpdwie9lqx0/branch/dev?svg=true)](https://ci.appveyor.com/project/yyx990803/vue-cli/branch/dev)
 
-> Vue CLI is the Standard Tooling for Vue.js Development.
+> Vue CLI 是针对 Vue 应用开发的官方命令行工具.
 
-## Documentation
+## 文档
 
-Docs are available at https://cli.vuejs.org/ - we are still working on refining it and contributions are welcome!
+可以查阅 https://cli.vuejs.org/ - 目前该文档还在持续优化
 
-## Contributing
+## 开发贡献
 
-Please see [contributing guide](https://github.com/vuejs/vue-cli/blob/dev/.github/CONTRIBUTING.md).
+查阅[开发贡献指南](https://github.com/vuejs/vue-cli/blob/dev/.github/CONTRIBUTING.md).
 
-## License
+## 开源协议
 
 [MIT](https://github.com/vuejs/vue-cli/blob/dev/LICENSE)
